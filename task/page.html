@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Information</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<style type="text/css">
+	    body{
+	    	background-color:green;
+	    }
+	     
+		div{
+
+			text-align: center;
+			margin-top: 5%;
+
+		}
+		.container.jumbotron{
+			background-image: url();
+			
+			max-width: 500px;
+			float: left;
+
+
+			margin-left: 0;
+				height: 500px;
+			
+				color: white;
+				float: right;
+
+
+		}
+
+		#table{
+	width: 300px;
+	text-align: left;
+	color: white;
+	font-size: 17px;
+}
+
+
+
+		#display{
+			text-align: center;
+			margin-left:0%;
+			font-size: 25px;
+		}
+
+		.display2{
+			font-size: 25px;
+			margin-top: 25px;
+		}
+
+		.hide{
+
+			display: none;
+			margin-left : 150px;
+		}
+		#git{
+			color: white;
+			margin-left: 600px;
+			margin-bottom:  250px;
+			
+		}
+
+		#gtext{
+	text-align: center;
+	color: blue;
+}
+
+		
+
+		@media (min-width: 768px) {
+.my-custom-container{
+    width:600px;
+    margin-left: 0;
+    float:left;
+}}
+
+.container{
+	margin-left:  0px;
+	float: left;
+
+}
+#gbutton{
+	color: blue;
+}
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: black;
+}
+
+
+
+
+
+	
+	
+
+
+
+	</style>
+</head>
+<body>
+
+	
+
+
+<div class="container my-custom-container ">
+
+	<div class="jumbotron">
+
+			<h1> Current Weather Information</h1>
+
+				<div>
+
+						<input type="text" placeholder="enter the zip code" id="input">
+
+						<button id ="button">Get Weather</button>
+
+				</div>
+					
+					<div>
+							<p id="display">  <span class="hide">&#8451</span> </p>
+
+
+
+							<p class="display2"></p>
+					</div>
+
+
+
+
+
+
+	</div>
+
+	
+
+	</div>
+
+<div id="elements">
+					<div id="git">
+							
+								<p>GitHub</p>
+								<input type="text"  id="gtext" placeholder="Enter your GitHub username" >
+								<button id="gbutton">submit</button>
+								
+
+								<div id="table">
+
+						
+									
+
+						</div>
+
+
+			</div>
+	
+
+				
+
+</div>
+
+
+
+
+
+		
+
+
+
+
+<script type="text/javascript" src="weather.js"></script>
+</body>
+</html>
